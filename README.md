@@ -75,7 +75,7 @@ cd Spring-Boot-Application
 # 📄 Configuration de la base de données
 Le fichier **application.properties** configure la base de données **H2** :
 
-```properties
+properties
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
@@ -115,9 +115,9 @@ La console H2 vous permet de :
 
 4. **Vérifiez les données dans la table `PATIENTS`** :
    - Une fois connecté, exécutez la requête SQL suivante pour voir tous les patients :
-     ```sql
+     sql
      SELECT * FROM PATIENTS;
-     ```
+     
    - Le tableau affichera les colonnes `ID`, `NOM`, `AGE` et `MALADE`.
 
 5. **Testez les fonctionnalités** :
@@ -128,7 +128,7 @@ La console H2 vous permet de :
 ---
 
 ### **Exemple de requête SQL dans la console H2 :**
-```sql
+sql
 SELECT * FROM PATIENTS;
 
 # 🛠️ Fonctionnalités détaillées
@@ -182,7 +182,7 @@ SELECT * FROM PATIENTS;
 2. **Suppression de patients** :
    - Supprimez un patient depuis [http://localhost:8080/patients](http://localhost:8080/patients).
    - Confirmez la suppression en accédant à la console H2 et en exécutant :
-     ```sql
+     sql
      SELECT * FROM PATIENTS;
-     ```
+     
 
