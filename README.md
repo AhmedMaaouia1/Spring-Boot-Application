@@ -32,17 +32,20 @@ L'application utilise une **base de données H2** en mémoire pour stocker les d
 ## 📂 Structure du projet
 
 hopital/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/hopital/
-│   │   │   ├── controllers/        # Les contrôleurs
-│   │   │   ├── models/             # Les classes de modèle (entités JPA)
-│   │   │   ├── repositories/       # Les interfaces de repository
-│   │   │   └── services/           # Les services métiers
-│   │   └── resources/
-│   │       ├── templates/          # Les pages HTML (patients.html, add-patient.html)
-│   │       └── application.properties # Configuration de la base de données
-└── README.md                        # Description du projet
+
+├ ── src/
+
+│   ├ ── main/
+
+│   │   ├  ── java/com/example/hopital/
+│   │   │   ├ ── controllers/        # Les contrôleurs
+│   │   │   ├ ── models/             # Les classes de modèle (entités JPA)
+│   │   │   ├ ── repositories/       # Les interfaces de repository
+│   │   │   └ ── services/           # Les services métiers
+│   │   └ ── resources/
+│   │       ├ ── templates/          # Les pages HTML (patients.html, add-patient.html)
+│   │       └ ── application.properties # Configuration de la base de données
+└ ── README.md                        # Description du projet
 
 
 ---
