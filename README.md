@@ -69,9 +69,8 @@ Pour exécuter le projet sur votre machine locale, suivez les étapes ci-dessous
 
 ### 2️⃣ **Cloner le dépôt**
 Exécutez la commande suivante dans le terminal :
-```bash
 git clone https://github.com/AhmedMaaouia1/Spring-Boot-Application.git
-cd Spring-Boot-Application```
+cd Spring-Boot-Application
 
 # 📄 Configuration de la base de données
 Le fichier **application.properties** configure la base de données **H2** :
